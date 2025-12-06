@@ -1,0 +1,6 @@
+[
+  { "name": "Neural Uplink v3.1", "latency": "3ms", "risk": "Low" },
+  { "name": "Retinal HUD Mk2", "ability": "CrimeScan", "risk": "Medium" },
+  { "name": "CarbonWeave Bones", "impact_resistance": "80%", "risk": "Low" },
+  { "name": "Ghostlink Interface", "stealth": "99%", "risk": "High" }
+]
