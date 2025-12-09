@@ -1,9 +1,18 @@
 from fastapi import FastAPI, Query
 import time
 import platform
+from fastapi.middleware.cors import CORSMiddleware
 from app.data import get_augmentations, get_district_status, scan_citizen, get_latest_news
 
-app = FastAPI(title="Cyberpunk Terminal API")
+app = FastAPI(title="Cyberpunk Terminal API")\
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def root():
