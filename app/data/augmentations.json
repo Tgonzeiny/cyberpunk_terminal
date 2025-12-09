@@ -1,6 +1,10 @@
 [
-  { "name": "Neural Uplink v3.1", "latency": "3ms", "risk": "Low" },
-  { "name": "Retinal HUD Mk2", "ability": "CrimeScan", "risk": "Medium" },
-  { "name": "CarbonWeave Bones", "impact_resistance": "80%", "risk": "Low" },
-  { "name": "Ghostlink Interface", "stealth": "99%", "risk": "High" }
+  { "name": "Kiroshi Optics Mk.4",           "ability": "Thermal + Target Tracking", "risk": "Medium", "street_price": "€ 21,000" },
+  { "name": "Sandevistan (Militech Falcon)", "ability": "reflex_boost 300%",     "risk": "High",   "street_price": "€ 87,000" },
+  { "name": "Synaptic Accelerator",          "ability": "Time Dilation 2.1s",        "risk": "Low",    "street_price": "€ 34,500" },
+  { "name": "Gorilla Arms (Arasaka Tactical)", "ability": "Blunt Trauma +180%",      "risk": "Medium", "street_price": "€ 45,000" },
+  { "name": "Mantis Blades (Tsunami X-1)",    "ability": "Lethal Leap Attack",        "risk": "High",   "street_price": "€ 68,000" },
+  { "name": "Subdermal Armor Plating",       "ability": "35% kinetic reduction",     "risk": "Low",    "street_price": "€ 18,000" },
+  { "name": "Second Heart",                  "ability": "Death save once per 180s",  "risk": "Very High", "street_price": "€ 112,000" },
+  { "name": "Monochrome Neural Link",        "ability": "Ghost hack immunity",       "risk": "Extreme", "street_price": "Black market only" }
 ]
